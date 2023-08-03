@@ -52,7 +52,7 @@ const HomePage: React.FC = () => {
         <Link href="/">
           <a style={linkStyle}>
             <span style={iconStyle}>⭐</span>
-            <span style={titleStyle}>GALAI</span>
+            <span style={titleStyle}>GALAI - AI LAB</span>
           </a>
         </Link>
         <div onClick={handleOpenMenu} style={{ cursor: 'pointer' }}>
