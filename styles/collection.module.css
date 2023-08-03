@@ -1,0 +1,49 @@
+.collectionContainer {
+  padding: 20px;
+  background-color: #f9f9f9;
+  max-width: 800px;
+  margin: auto;
+}
+
+.collectionItem {
+  display: flex;
+  align-items: center;
+  border: 1px solid #e0e0e0;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.image {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.details {
+  flex-grow: 1;
+}
+
+.pagination {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.pageButton {
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.pageButton:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.pageButton:hover:not(:disabled) {
+  background-color: #0056b3;
+}

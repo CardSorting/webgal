@@ -1,0 +1,16 @@
+/* styles/StorySection.module.css */
+.story {
+    background-color: #000; /* Black background */
+    color: #0ff; /* Neon cyan text */
+    padding: 30px;
+    text-align: center;
+}
+
+.story h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.story p {
+    line-height: 1.5;
+}

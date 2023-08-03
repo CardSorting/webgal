@@ -1,0 +1,114 @@
+/* ImageForm.module.css */
+
+/* Main container styles */
+.container {
+  position: relative;
+  background: var(--color-background);
+  color: var(--color-text);
+  padding: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh; /* Ensure the container takes at least the full viewport height */
+  width: 100%;
+  text-align: center;
+}
+
+/* Media query for larger screens */
+@media (min-width: 600px) {
+  .container {
+    margin: 0;
+    padding: 2%;
+  }
+}
+
+/* Block styles for image blocks */
+.block {
+  cursor: pointer;
+  border: 1px solid #ddd;
+  padding: 8px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.selectedBlock {
+  cursor: pointer;
+  border: 1px solid #ddd;
+  padding: 8px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+  background-color: #eee; /* Color to highlight the selected block */
+}
+
+/* Form elements styles */
+.input {
+  width: 100%;
+  padding: 1em;
+  color: var(--color-text);
+  background-color: #fff;
+  border: 1px solid var(--color-secondary);
+  margin-bottom: 1em;
+}
+
+.button {
+  padding: 1em 2em;
+  color: #fff;
+  background-color: var(--color-primary);
+  border: none;
+  cursor: pointer;
+  margin-bottom: 1em;
+}
+
+/* Image styles */
+.imageContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 3%;
+}
+
+.image {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Error message styles */
+.error {
+  color: var(--color-error);
+  margin-top: 2em;
+}
+
+/* Loading modal styles */
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.loading-bar {
+  width: 50%;
+  height: 5%;
+  background-color: var(--color-secondary);
+  border: 2px solid var(--color-primary);
+}
+
+/* Animation styles for stars */
+.stars {
+  position: relative;
+  width: 60%;
+  height: 10%;
+  margin-top: 2em;
+}
+
+.star {
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  background-color: var(--color-primary);
+}

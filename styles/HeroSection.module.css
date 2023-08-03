@@ -1,0 +1,40 @@
+/* styles/HeroSection.module.css */
+.hero {
+    height: 25vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000; /* Black background */
+}
+
+.content {
+    color: #fff; /* White text */
+    text-align: center;
+}
+
+.content h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.gradient {
+    background: linear-gradient(90deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.content button {
+    padding: 10px 10px;
+    border: none;
+    background-color: #0ff; /* Neon cyan */
+    color: #000; /* Black */
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.content button:hover {
+    background-color: #fff; /* White */
+    color: #000; /* Black */
+}
