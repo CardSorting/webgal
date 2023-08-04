@@ -14,7 +14,7 @@ import {
 } from '@mui/material';
 import Icon from '@mdi/react';
 import { mdiCellphone, mdiImageArea, mdiSquare, mdiDiceMultiple } from '@mdi/js';
-import styles from '../../styles/ImageForm.module.css';
+import styles from '../styles/ImageForm.module.css';
 import ModelsForm from './ModelsForm';
 import axios from 'axios';
 // Block type interface
