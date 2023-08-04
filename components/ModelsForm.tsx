@@ -7,9 +7,9 @@ import useFilteredModels from './useFilteredModels';
 import ModelCard from './ModelCard';
 
 const models = [
-  { name: 'model1', style: 'realistic', popularity: 5, rating: 3.5, runs: 100 }, // Change RUNS to runs
-  { name: 'model2', style: 'anime', popularity: 7, rating: 4.5, runs: 200 }, // Change RUNS to runs
-  { name: 'model3', style: 'realistic', popularity: 10, rating: 5.0, runs: 300 }, // Change RUNS to runs
+  { name: 'model1', style: 'realistic', popularity: 5, rating: 3.5, RUNS: 100 }, // Change RUNS to runs
+  { name: 'model2', style: 'anime', popularity: 7, rating: 4.5, RUNS: 200 }, // Change RUNS to runs
+  { name: 'model3', style: 'realistic', popularity: 10, rating: 5.0, RUNS: 300 }, // Change RUNS to runs
 ];
 
 const styleFilters = ['all', 'anime', 'realistic'];
