@@ -16,14 +16,14 @@ const HomePage: React.FC = () => {
   flexWrap: 'wrap'
 };
 
-  const linkContainerStyle = {
-    display: isOpen ? 'block' : 'none',
-    width: '100%',
-    backgroundColor: '#f9f9f9',
-    textAlign: 'right', // Updated line
-    paddingTop: '10px',
-    paddingBottom: '10px',
-  };
+  const linkContainerStyle: React.CSSProperties = {
+  display: isOpen ? 'block' : 'none',
+  width: '100%',
+  backgroundColor: '#f9f9f9',
+  textAlign: 'right', // This should be one of 'left', 'right', 'center', 'justify', 'initial', or 'inherit'
+  paddingTop: '10px',
+  paddingBottom: '10px',
+};
 
   const linkStyle = {
     color: '#333',
