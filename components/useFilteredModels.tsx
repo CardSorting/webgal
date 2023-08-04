@@ -6,7 +6,7 @@ interface Model {
   style: string;
   popularity: number;
   rating: number;
-  instances: number;
+  runs: number;
 }
 
 const useFilteredModels = (models: Model[]) => {
